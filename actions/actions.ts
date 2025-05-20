@@ -21,7 +21,7 @@ export async function createPost(formData: FormData) {
         slug,
         content,
         author: {
-          connect: { id: "cmaw7n9z10000rqmbfjgvuxri" },
+          connect: { id: "cmaw8ils10000rqyru5q76hnz" },
         },
       },
     });

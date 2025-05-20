@@ -8,7 +8,7 @@ import { cache } from "react";
 
 const getCachedPosts = cache(async () => {
   const user = await prisma.user.findUnique({
-    where: { id: "cmaw7n9z10000rqmbfjgvuxri" },
+    where: { id: "cmaw8ils10000rqyru5q76hnz" },
     include: { posts: true },
   });
 
